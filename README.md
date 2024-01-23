@@ -1,2 +1,7 @@
-# Dinos-Hyperspace-Wrapper-for-Mac
-An Application for MacOS that allows Running FTL: Hyperspace noob friendly with the usage of Wine
+# Dino's Hyperspace Wrapper for Mac
+Noob friendly Application to run FTL: Hyperspace on MacOS 
+(Supporting x86 and ARM)
+
+## Known issues
+- Sound bugs related to Wine
+- Long loading times on ARM macs related to rosetta
