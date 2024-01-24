@@ -1,5 +1,6 @@
 # Dino's Hyperspace Wrapper for Mac
-Noob friendly Application to run FTL: Hyperspace on MacOS 
+## About:
+A noob friendly solution utilizing wine to run [FTL: Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace) and mods like [FTL: Multiverse](https://ftlmultiverse.fandom.com/wiki/FTL:_Multiverse_Wiki) on MacOS. Also able to run Vanilla FTL.
 (Supporting x86 and ARM)
 
 ## Installing FTL:
@@ -44,5 +45,7 @@ Comming soon
 - Longer loading times on Apple Silicon Mac's caused by Rosetta translation.
 - Secondary FTL window in the dock after downgrade, fixed by restarting the wrapper.
 
-## Special Thanks
+## Special Thanks to:
 - Onceuponaban: Made the logo for the Wrapper using SaltyFriedRice's art
+#
+If you face any problems, want to give feedback or request a feature please message me on discord. - "thedumbdino"
