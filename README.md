@@ -100,5 +100,6 @@ This happens because the contents of the `.app` bundle don't match the original 
 
 ## Special Thanks to:
 - Onceuponaban: Made the logo for the Wrapper using SaltyFriedRice's art
+- @hsource: Wrote Install Instrcutions for SMM/Multiverse
 #
 If you face any problems, want to give feedback or request a feature please message me on discord. - "thedumbdino"
