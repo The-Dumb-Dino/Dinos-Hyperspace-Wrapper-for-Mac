@@ -45,10 +45,10 @@ Note: Before installing hyperspace, make sure to patch the ftl.dat file with you
 
 FTL Multiverse is the most popular FTL mod, and is often why you're installing Hyperspace. Here's how you can install it:
 
-1. Download the Slipstream Mod Manager for Unix from the thread
+1. Download the Slipstream Mod Manager for Unix from the [SMM thread](https://subsetgames.com/forum/viewtopic.php?f=12&t=17102&sid=84a48e3fdd232c8c6ad5ca3b6cea5475)
 2. Unzip it and move all the contents (including modman.jar) into the Drop-FTL-Here folder
 3. Create a modman.cfg file and paste the contents below. We do this because the folder selector for the mod manager doesn't work well inside of MacOS app bundles
-4. Download the 2 raw files (Multiverse 5.4 - Assets (Patch above Data).zip and Multiverse 5.4  - Data.zip as of 2024-01-25) for Multiverse from the Multiverse thread: look for the "Download Raw Files" section
+4. Download the 2 raw files (Multiverse 5.4 - Assets (Patch above Data).zip and Multiverse 5.4  - Data.zip as of 2024-01-25) for Multiverse from the [Multiverse thread](https://subsetgames.com/forum/viewtopic.php?f=11&%20t=35332#:~:text=main%20FTL%20folder.-,DOWNLOAD%20RAW%20FILES,-%28OTHER%20PLATFORMS%2C%20UPDATES): look for the "Download Raw Files" section
 6. Move both of them into the Drop-FTL-Here/mods folder
 7. Open up modman.jar within the Drop-FTL-Here folder. You may need to right-click and then click Open
 
