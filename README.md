@@ -3,7 +3,7 @@
 A noob friendly solution utilizing [wine](https://www.winehq.org) to run [FTL: Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace) and mods like [FTL: Multiverse](https://ftlmultiverse.fandom.com/wiki/FTL:_Multiverse_Wiki) on MacOS. Also able to run Vanilla FTL.
 (Supporting x86 and ARM)
 
-## Installing FTL:
+## Setting up Wrapper/Installing FTL:
 At first download the [latest](https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/releases) wrapper. I reccomend moving it into the Applications folder.
 After that you should get a copy of FTL for Windows and download the latest version of [Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace/releases) aswell.
 
@@ -11,21 +11,53 @@ After that you should get a copy of FTL for Windows and download the latest vers
 
 *How to download Windows-FTL (GOG):* I don't have FTL on gog but I belive you can simply download the windows version in the GOG client
 
-### Step 1: Inside the wrapper
-Navigate into the wrapper by left-clicking on it and pressing "View package contents".
-<img width="853" alt="DHW S1 - View Content" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/4d77ddbb-ab9f-4f16-b68f-c914bb5ff114">
+### Step 1: Launching the Wrapper
+First, open the downloaded file and drag and drop the .DMG file into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
+When you double-click on the wrapper, you get this window saying that the developer cannot be verified:
 
-### Step 2: FTL Location
-Navigate to "Drop-FTL-Here"
-<img width="1230" alt="DHW S2 - Navigate to FTL Destination" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/e624f345-83f4-417f-8f8d-36a90e6fd55e">
+<img width="409" alt="Bildschirmfoto 2024-01-26 um 12 03 16" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/7ac80440-9aff-4e29-a4cb-6b17a6870503">
+
+Instead, please right-click on the application and select *open*:
+
+<img width="380" alt="Bildschirmfoto 2024-01-26 um 12 03 34" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/713128b0-298e-4f6f-a256-c38419c46e96">
+
+This should open a window like this, still giving you the warning, but allowing you to open the wrapper (after pressing open once, it will not pop up again):
+
+<img width="409" alt="Bildschirmfoto 2024-01-26 um 12 03 50" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/57e88493-e8e5-475e-92ff-0f042ed36b30">
+
+
+### Step 2: First Launch
+When you run it for the first time, a window will pop up telling you that the FTL files are missing:
+
+<img width="532" alt="Bildschirmfoto 2024-01-26 um 12 06 29" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/2de89f64-0f43-4ac0-bc32-fd39fe42c0d2">
+
+Pressing 'OK' will open a second window asking if you own FTL on Steam, pressing 'Yes' will take you through the 'Auto-Download' process and finally open the Steam Console where you will be asked to run `download_depot 212680 212681`: 
+
+***(if you do not own FTL on Steam, please go to step 3)***.
+
+<img width="1056" alt="Bildschirmfoto 2024-01-26 um 12 14 33" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/0b376af7-1aaf-4e45-8797-542f9d2442fe">
+
+After the download is finished, you will need to navigate to `/Users/dino/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/depot_212681`.
+To get there, just right-click in the Finder, select *Go To*, and paste the path.
+
+<img width="388" alt="Bildschirmfoto 2024-01-26 um 12 19 22" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/f21ace61-d94a-479a-97f2-03494fc6fe1a">
+<img width="572" alt="Bildschirmfoto 2024-01-26 um 12 22 49" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/0396ce24-8a5a-4318-a6c0-57810ebc6cdd">
+<img width="955" alt="Bildschirmfoto 2024-01-26 um 12 21 19" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/fd945670-fc8c-4b5a-a2d3-16d9b7a9633b">
+
 
 ### Step 3: Copying files
-Ensure that your FTL and Hyperspace files are prepared. Transfer them by dragging or copying them into the designated folder.
+The wrapper will give you the option to automatically open the designated FTL folder with this window. Pressing 'Yes' will of course open the directory where you are supposed to drop FTL.
+
+<img width="532" alt="Bildschirmfoto 2024-01-26 um 12 30 28" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/d09ac5d0-437a-4af4-ab9b-0a41591d1cf1">
+<img width="1032" alt="Bildschirmfoto 2024-01-26 um 12 31 44" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/7e6f710d-8724-4759-8981-07f909d64dea">
+
+Make sure your FTL and hyperspace files are ready. Transfer them by dragging or copying them into the new window.
 <img width="853" alt="DHW S4 - Copy FTL Files" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/f6e7b5ab-4e2a-44e3-aa5e-22d5bb18cb75">
 
 ### Step 4: First launch
-Congrats! Now you can launch the wrapper for the first time by left-clicking and selecting "open".
+Congratulations! Now you can start FTL for the first time, either double click or left click on the wrapper and select "open".
 <img width="853" alt="DHW S5 - Launch Wrapper" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/48898526-ed59-4bb0-82e8-05128e6389e5">
+
 
 ### Step 5: Finishing Hyperspace installation
 After launching the wrapper it will check if Hyperspace is present and if it is downgraded or not. Downgrading is an automated process and is managed for you. 
@@ -41,7 +73,12 @@ If nothing went wrong you should see this window, just press OK and FTL will sta
 
 Note: Before installing hyperspace, make sure to patch the ftl.dat file with your desired mods. Otherwise, hyperspace will not be fully installed (temporarily).
 
-## Installing Multiverse with Slipstream Mod Manager:
+
+### Step 6: Play FTL
+If everything went smoothly and you have already patched your desired mods, the game should start up fine:
+<img width="1392" alt="Bildschirmfoto 2024-01-26 um 12 38 40" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/bf902b8c-b5a7-4f0a-809c-c8c1b644a5fa">
+
+## Installing Multiverse/Hyperspace with Slipstream Mod Manager:
 
 FTL Multiverse is the most popular FTL mod, and is often why you're installing Hyperspace. Here's how you can install it:
 
@@ -89,9 +126,9 @@ never_run_ftl=false
 
 ## Troubleshooting
 
-### File/App is damaged and cannot be opened
+### Wrapper hops for a few times and then closes:
 
-This happens because the contents of the `.app` bundle don't match the original contents. You can try to clear this attribute by running `xattr -cr /Applications/Dino\'s-Hyperspace-Wrapper.app` in Terminal.
+This can happen because the internal script does not like names with empty keys, you must have renamed the application or something.
 
 ## Known issues:
 - Sound bugs/tearing caused by Wine.
