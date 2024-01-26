@@ -41,8 +41,57 @@ If nothing went wrong you should see this window, just press OK and FTL will sta
 
 Note: Before installing hyperspace, make sure to patch the ftl.dat file with your desired mods. Otherwise, hyperspace will not be fully installed (temporarily).
 
-## Installing mods with SMM:
-Comming soon
+## Installing Multiverse with Slipstream Mod Manager:
+
+FTL Multiverse is the most popular FTL mod, and is often why you're installing Hyperspace. Here's how you can install it:
+
+1. Download the Slipstream Mod Manager for Unix from the [SMM thread](https://subsetgames.com/forum/viewtopic.php?f=12&t=17102&sid=84a48e3fdd232c8c6ad5ca3b6cea5475)
+2. Unzip it and move all the contents (including modman.jar) into the Drop-FTL-Here folder
+3. Create a modman.cfg file and paste the contents below. We do this because the folder selector for the mod manager doesn't work well inside of MacOS app bundles
+4. Download the 2 raw files (Multiverse 5.4 - Assets (Patch above Data).zip and Multiverse 5.4  - Data.zip as of 2024-01-25) for Multiverse from the [Multiverse thread](https://subsetgames.com/forum/viewtopic.php?f=11&%20t=35332#:~:text=main%20FTL%20folder.-,DOWNLOAD%20RAW%20FILES,-%28OTHER%20PLATFORMS%2C%20UPDATES): look for the "Download Raw Files" section
+6. Move both of them into the Drop-FTL-Here/mods folder
+7. Open up modman.jar within the Drop-FTL-Here folder. You may need to right-click and then click Open
+
+Drag the items so that the "Assets" is above the "Data" (per instructions) and check the checkboxes, then click Patch
+
+<details>
+<summary>modman.cfg contents</summary>
+  
+```
+#
+# allow_zip         - Sets whether to treat .zip files as .ftl files. Default: false.
+# ftl_dats_path     - The path to FTL's resources folder. If invalid, you'll be prompted.
+# steam_distro      - If true, FTL was installed via Steam. Stops the GUI asking for a path.
+# steam_exe_path    - The path to Steam's executable, if FTL was installed via Steam.
+# run_steam_ftl     - If true, SMM will use Steam to launch FTL, if possible.
+# never_run_ftl     - If true, there will be no offer to run FTL after patching. Default: false.
+# update_catalog    - If a number greater than 0, check for new mod descriptions every N days.
+# update_app        - If a number greater than 0, check for newer app versions every N days.
+# use_default_ui    - If true, no attempt will be made to resemble a native GUI. Default: false.
+# remember_geometry - If true, window geometry will be saved on exit and restored on startup.
+#
+# manager_geometry  - Last saved position/size/etc of the main window.
+#
+#Thu Jan 25 23:32:02 PST 2024
+update_catalog=7
+remember_geometry=true
+steam_exe_path=
+run_steam_ftl=
+allow_zip=true
+steam_distro=false
+update_app=4
+ftl_dats_path=/Applications/Dino's-Hyperspace-Wrapper.app/Contents/MacOS/Drop-FTL-Here
+use_default_ui=false
+never_run_ftl=false
+```
+
+</details>
+
+## Troubleshooting
+
+### File/App is damaged and cannot be opened
+
+This happens because the contents of the `.app` bundle don't match the original contents. You can try to clear this attribute by running `xattr -cr /Applications/Dino\'s-Hyperspace-Wrapper.app` in Terminal.
 
 ## Known issues:
 - Sound bugs/tearing caused by Wine.
