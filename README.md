@@ -3,6 +3,10 @@
 A noob friendly solution utilizing [wine](https://www.winehq.org) to run [FTL: Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace) and mods like [FTL: Multiverse](https://ftlmultiverse.fandom.com/wiki/FTL:_Multiverse_Wiki) on MacOS, recommended by the official Hyperspace Team. Also able to run Vanilla FTL.
 (Supporting x86 and ARM)
 
+## Youtube guide for people that aren't good with text instructions:
+[![Install Guide](https://i.ytimg.com/vi/YqLWWHI291M/maxresdefault.jpg)](https://www.youtube.com/watch?v=YqLWWHI291M)
+
+
 ## Setting up Wrapper/Installing FTL:
 At first download the [latest](https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/releases) wrapper. I reccomend moving it into the Applications folder.
 After that you should get a copy of FTL for Windows and download the latest version of [Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace/releases) aswell.
