@@ -12,7 +12,7 @@ After that you should get a copy of FTL for Windows and download the latest vers
 *How to download Windows-FTL (GOG):* I don't have FTL on gog but I belive you can simply download the windows version in the GOG client
 
 ### Step 1: Launching the Wrapper
-First, open the downloaded file and drag and drop the .DMG file into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
+First, open the downloaded .DMG file and drag and drop the Wrapper that inside into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
 When you double-click on the wrapper, you get this window saying that the developer cannot be verified:
 
 <img width="409" alt="Bildschirmfoto 2024-01-26 um 12 03 16" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/7ac80440-9aff-4e29-a4cb-6b17a6870503">
