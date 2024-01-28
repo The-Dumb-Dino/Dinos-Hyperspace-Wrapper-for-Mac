@@ -37,7 +37,7 @@ Pressing 'OK' will open a second window asking if you own FTL on Steam, pressing
 
 <img width="1056" alt="Bildschirmfoto 2024-01-26 um 12 14 33" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/0b376af7-1aaf-4e45-8797-542f9d2442fe">
 
-After the download is finished, you will need to navigate to `/Users/dino/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/depot_212681`.
+After the download is finished, you will need to navigate to `/Users/[YOUR USER]/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/depot_212681`.
 To get there, just right-click in the Finder, select *Go To*, and paste the path.
 
 <img width="388" alt="Bildschirmfoto 2024-01-26 um 12 19 22" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/f21ace61-d94a-479a-97f2-03494fc6fe1a">
