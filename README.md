@@ -7,9 +7,9 @@ A noob friendly solution utilizing [wine](https://www.winehq.org) to run [FTL: H
 At first download the [latest](https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/releases) wrapper. I reccomend moving it into the Applications folder.
 After that you should get a copy of FTL for Windows and download the latest version of [Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace/releases) aswell.
 
-*How to download Windows-FTL (steam):* The Wrapper guides you through the process if you own FTL on Steam
+**How to download Windows-FTL (steam):** The Wrapper guides you through the process if you own FTL on Steam
 
-*How to download Windows-FTL (GOG):* I don't have FTL on gog but I belive you can simply download the windows version in the GOG client
+**How to download Windows-FTL (GOG):** Please download the Windows version 1.6.9 from GOG, you can select which version to download. Other versions will **NOT** work
 
 ### Step 1: Launching the Wrapper
 First, open the downloaded .DMG file and drag and drop the Wrapper that inside into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
