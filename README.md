@@ -1,18 +1,22 @@
 # Dino's Hyperspace Wrapper for Mac
 ## About:
-A noob friendly solution utilizing [wine](https://www.winehq.org) to run [FTL: Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace) and mods like [FTL: Multiverse](https://ftlmultiverse.fandom.com/wiki/FTL:_Multiverse_Wiki) on MacOS. Also able to run Vanilla FTL.
+A noob friendly solution utilizing [wine](https://www.winehq.org) to run [FTL: Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace) and mods like [FTL: Multiverse](https://ftlmultiverse.fandom.com/wiki/FTL:_Multiverse_Wiki) on MacOS, recommended by the official Hyperspace Team. Also able to run Vanilla FTL.
 (Supporting x86 and ARM)
+
+## Youtube guide for people that aren't good with text instructions:
+[![Install Guide](https://i.ytimg.com/vi/YqLWWHI291M/maxresdefault.jpg)](https://www.youtube.com/watch?v=YqLWWHI291M)
+
 
 ## Setting up Wrapper/Installing FTL:
 At first download the [latest](https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/releases) wrapper. I reccomend moving it into the Applications folder.
 After that you should get a copy of FTL for Windows and download the latest version of [Hyperspace](https://github.com/FTL-Hyperspace/FTL-Hyperspace/releases) aswell.
 
-*How to download Windows-FTL (steam):* The Wrapper guides you through the process if you own FTL on Steam
+**How to download Windows-FTL (steam):** The Wrapper guides you through the process if you own FTL on Steam
 
-*How to download Windows-FTL (GOG):* I don't have FTL on gog but I belive you can simply download the windows version in the GOG client
+**How to download Windows-FTL (GOG):** Please download the Windows version 1.6.9 from GOG, you can select which version to download. Other versions will **NOT** work
 
 ### Step 1: Launching the Wrapper
-First, open the downloaded file and drag and drop the .DMG file into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
+First, open the downloaded .DMG file and drag and drop the Wrapper that inside into your Applications folder. Since I can't afford to sign my program, you'll have to do a few extra clicks.
 When you double-click on the wrapper, you get this window saying that the developer cannot be verified:
 
 <img width="409" alt="Bildschirmfoto 2024-01-26 um 12 03 16" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/7ac80440-9aff-4e29-a4cb-6b17a6870503">
@@ -37,7 +41,7 @@ Pressing 'OK' will open a second window asking if you own FTL on Steam, pressing
 
 <img width="1056" alt="Bildschirmfoto 2024-01-26 um 12 14 33" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/0b376af7-1aaf-4e45-8797-542f9d2442fe">
 
-After the download is finished, you will need to navigate to `/Users/dino/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/depot_212681`.
+After the download is finished, you will need to navigate to `/Users/[YOUR USER]/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/depot_212681`.
 To get there, just right-click in the Finder, select *Go To*, and paste the path.
 
 <img width="388" alt="Bildschirmfoto 2024-01-26 um 12 19 22" src="https://github.com/The-Dumb-Dino/Dinos-Hyperspace-Wrapper-for-Mac/assets/77470472/f21ace61-d94a-479a-97f2-03494fc6fe1a">
