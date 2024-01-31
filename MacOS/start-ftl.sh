@@ -22,6 +22,7 @@ HYPERSPACE_DOWNGRADED="$SCRIPT_DIR/Drop-FTL-Here/FTLGame_orig.exe"
 
 function OpenFTLFolder() {
     echo "Opening FTL Folder"
+    cd "$SCRIPT_DIR"
     open "$FTL_FOLDER"
     exit 1
 }
@@ -44,6 +45,17 @@ function osascriptAskingOpenFTLFolder() {
     else
         noGameFiles
     fi
+}
+
+# Opens the folder Steam downloaded Windows FTL
+function OpenDownload() {
+    echo "Opening FTL's Steam depot"
+    local STEAM_FOLDER="Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamapps/content/app_212680/"
+    local DEPOT_FOLDER="depot_212681/"
+    local STEAM_PATH="$HOME/$STEAM_FOLDER"
+    cd "$STEAM_PATH" || exit
+    open "$DEPOT_FOLDER"
+    osascriptAskingOpenFTLFolder
 }
 
 # Asks if you want to open the FTL Folder
@@ -86,9 +98,9 @@ function AutoDownload() {
 function launchSteamCMD() {
     echo "Opening Steam's console"
     open steam://nav/console
-    responseAutoDownload=$(osascript -e "display dialog \"Shortly after Steam has launched a new tab with a console promt should open. Please execute this command: 'download_depot 212680 212681'. After it finished downloading move the files into the FTL folder.\" buttons {\"OK\"} default button \"OK\" with title \"Steam Console\"")
-    if [[ $responseAutoDownload == "button returned:Yes" ]]; then
-        osascriptAskingOpenFTLFolder
+    responseAutoDownload=$(osascript -e "display dialog \"Shortly after Steam launches, a new tab should open with a console prompt. Please run this command: 'download_depot 212680 212681'. After the download is finished, move the files into the FTL folder. The folder FTL was downloaded to will open after pressing 'OK'.\" buttons {\"OK\"} default button \"OK\" with title \"Steam Console\"")
+    if [[ $responseAutoDownload == "button returned:OK" ]]; then
+        OpenDownload
     else
         osascriptAskingOpenFTLFolder
     fi
