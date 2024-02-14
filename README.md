@@ -9,7 +9,7 @@ The project began as a personal endeavor to create a visually appealing and user
 &nbsp;
 
 ## Youtube guide for people that aren't good with text instructions:
-[![Install Guide](https://i.ytimg.com/vi/YqLWWHI291M/maxresdefault.jpg)](https://www.youtube.com/watch?v=YqLWWHI291M)
+[![Install Guide](https://i.ytimg.com/vi/YqLWWHI291M/maxresdefault.jpg)]([https://www.youtube.com/watch?v=YqLWWHI291M](https://youtu.be/Dnb5mYeFwa4))
 
 &nbsp;
 
